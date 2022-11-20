@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Sergey</h1>
-<h3 align="center">I'm a Python backend developer and a beginner Rustacean 🦀</h3>
+<h3 align="center">I'm a Python developer and a beginner Rustacean 🦀</h3>
 
 ### Skills:
 
