@@ -1,2 +1,3 @@
-require("base")
+require("settings")
 require("plugins")
+require("lsp")
