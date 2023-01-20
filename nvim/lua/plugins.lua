@@ -9,15 +9,15 @@ return require('packer').startup(function(use)
   use {
      'nvim-lualine/lualine.nvim',
      requires = { 'kyazdani42/nvim-web-devicons', opt = true },
-		 config = function() 
-			 require('lualine').setup() 
+		 config = function()
+			 require('lualine').setup()
 		 end
   }
 
 	-- Tabs
 	use {
-		'akinsho/bufferline.nvim', 
-		tag = "v3.*", 
+		'akinsho/bufferline.nvim',
+		tag = "v3.*",
 		requires = 'nvim-tree/nvim-web-devicons',
 		config = function()
 			require('bufferline').setup()
@@ -30,7 +30,7 @@ return require('packer').startup(function(use)
   }
 	-- LSP
 	use 'neovim/nvim-lspconfig'
-	use { 
+	use {
 		'williamboman/mason.nvim',
 		config = function()
 			require('mason').setup()
