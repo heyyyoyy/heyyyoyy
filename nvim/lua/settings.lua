@@ -1,7 +1,7 @@
 local opt = vim.opt
 local g = vim.g
 
-g.mapleader = ' '
+g.mapleader = " "
 opt.number = true
 opt.relativenumber = true
 opt.ignorecase = true
@@ -13,5 +13,5 @@ opt.tabstop = 2
 opt.smartindent = true
 opt.splitright = true
 opt.splitbelow = true
-opt.clipboard = 'unnamedplus'
+opt.clipboard = "unnamedplus"
 opt.fixeol = false
