@@ -18,9 +18,6 @@ return require("packer").startup(function(use)
 		"akinsho/bufferline.nvim",
 		tag = "v3.*",
 		requires = "nvim-tree/nvim-web-devicons",
-		config = function()
-			require("bufferline").setup()
-		end,
 	})
 	-- Highlight
 	use({
@@ -64,4 +61,18 @@ return require("packer").startup(function(use)
 
 	use("L3MON4D3/LuaSnip")
 	use("saadparwaiz1/cmp_luasnip")
+
+	use({
+		"nvim-tree/nvim-tree.lua",
+		requires = {
+			"nvim-tree/nvim-web-devicons", -- optional, for file icons
+		},
+		tag = "nightly", -- optional, updated every week. (see issue #1193)
+	})
+
+	use({
+		"nvim-telescope/telescope.nvim",
+		tag = "0.1.1",
+		requires = { { "nvim-lua/plenary.nvim" } },
+	})
 end)

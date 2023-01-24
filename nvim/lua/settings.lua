@@ -15,3 +15,10 @@ opt.splitright = true
 opt.splitbelow = true
 opt.clipboard = "unnamedplus"
 opt.fixeol = false
+
+-- disable netrw at the very start of your init.lua (strongly advised)
+g.loaded_netrw = 1
+g.loaded_netrwPlugin = 1
+
+-- set termguicolors to enable highlight groups
+opt.termguicolors = true
